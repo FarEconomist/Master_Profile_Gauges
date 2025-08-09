@@ -2347,6 +2347,22 @@ section[data-section="menu"] {
   }
 }
 
+.responsive-text-block1 {
+  max-width: 370px; /* keeps the same size on desktop */
+  width: 100%;      /* allows shrinking on smaller screens */
+}
+
+.responsive-text-block1 p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Optional: add padding on mobile for better readability */
+@media (max-width: 768px) {
+  .responsive-text-block1 {
+    padding: 0 15px;
+  }
+}
 
   
   
